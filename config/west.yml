@@ -6,8 +6,7 @@ manifest:
     - name: zephyr
       remote: bobobo1618
       revision: fix-oled
-      clone-depth: 1
-      import:
-        # TODO: bleh
+      import: west.yml
+
   self:
     path: config
