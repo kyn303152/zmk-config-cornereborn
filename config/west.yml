@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: bobobo1618
+      url-base: https://github.com/bobobo1618
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
+    - name: zephyr
+      remote: bobobo1618
+      revision: fix-oled
       import: app/west.yml
   self:
     path: config
